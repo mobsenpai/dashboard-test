@@ -5,7 +5,7 @@ import AuthProvider from "./contexts/AuthContext";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/dashboard-test">
         <AuthProvider>
           <AppRoutes />
         </AuthProvider>
