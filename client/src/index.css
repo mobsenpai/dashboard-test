@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --text-color-primary: #ebdbb2;
+    --text-color-secondary: #282828;
+
+    --background-color-primary: #282828;
+    --background-color-primary-hover: #1d2021;
+    --background-color-secondary: #7c6f64;
+
+    --border-color-primary: #504945;
+}
+
+/* NOTE: DON'T use when using tailwind */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
